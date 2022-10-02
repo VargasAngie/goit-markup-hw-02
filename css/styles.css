@@ -1,0 +1,248 @@
+body {
+  font-family: "roboto", "sans-serif";
+  color: #757575;
+}
+
+/* ............ */
+/* Encabezado */
+/* ............ */
+
+.logo {
+  text-decoration: none;
+  font-family: "raleway", "sans-serif";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+
+.logo:hover,
+.logo:focus {
+  text-decoration: underline;
+}
+
+.header-list a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+
+.header-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-list a:hover,
+.header-list a:focus {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+.contact-list a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+}
+
+.contact-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-list a:hover,
+.contact-list a:focus {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+/* ................. */
+/* Sección inicial */
+/* ................. */
+
+.initial-section {
+  background-color: #2f303a;
+}
+
+.initial-section-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.06em;
+}
+
+.initial-section-button {
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* ................................. */
+/* Sección de valores corporativos */
+/* ................................. */
+.about-us-section th {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+/* ................................. */
+/* Sección de servicios */
+/* ................................. */
+.services-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.services-section-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+/* .................................... */
+/* Sección de presentación del equipo */
+/* .................................... */
+.team-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-section-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.team-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-job {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* .................................... */
+/* Pie de página */
+/* .................................... */
+.footer-section {
+  background-color: #2f303a;
+}
+
+.footer-text {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-list a {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list a:hover,
+.footer-list a:focus {
+  text-decoration: underline;
+  text-decoration-color: #2196f3;
+}
+
+.footer-text:hover,
+.footer-text:focus {
+  text-decoration: underline;
+  text-decoration-color: #2196f3;
+}
+
+/* .................................... */
+/* PORTAFOLIO */
+/* .................................... */
+/* Seccion de botones */
+/* .................................... */
+.buttons-section-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons-section-list button {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.buttons-section-list button:hover,
+.buttons-section-list button:focus {
+  cursor: pointer;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+/* .................................... */
+/* Seccion de proyectos */
+/* .................................... */
+.projects-section-list {
+  list-style: none;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
