@@ -1,6 +1,14 @@
+:root {
+  --white: #FFFFFF;
+  --black: #212121;
+  --text: #757575;
+  --high-lighted: #2196f3;
+}
+
 body {
   font-family: "roboto", "sans-serif";
-  color: #757575;
+  color: var(--text);
+  background-color: var(--white);
 }
 
 /* ............ */
@@ -13,7 +21,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #2196f3;
+  color: var(--high-lighted);
 }
 
 .logo:hover,
@@ -26,7 +34,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: #212121;
+  color: var(--black);
 }
 
 .header-list {
@@ -37,8 +45,7 @@ body {
 
 .header-list a:hover,
 .header-list a:focus {
-  color: #2196f3;
-  text-decoration: underline;
+  color: var(--high-lighted);
 }
 
 .contact-list a {
@@ -46,7 +53,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: #757575;
+  color: var(--text);
 }
 
 .contact-list {
@@ -57,7 +64,7 @@ body {
 
 .contact-list a:hover,
 .contact-list a:focus {
-  color: #2196f3;
+  color: var(--high-lighted);
   text-decoration: underline;
 }
 
@@ -79,7 +86,7 @@ body {
 }
 
 .initial-section-button {
-  background-color: #2196f3;
+  background-color: var(--high-lighted);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
@@ -95,11 +102,17 @@ body {
 /* ................................. */
 /* Sección de valores corporativos */
 /* ................................. */
-.about-us-section th {
-  color: #212121;
+.about-us-titles li {
+  color: var(--black);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  }
+
+.about-us-section ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 
 /* ................................. */
@@ -111,7 +124,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--black);
 }
 
 .services-section-list {
@@ -129,7 +142,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--black);
 }
 
 .team-section-list {
@@ -144,7 +157,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--black);
 }
 
 .team-job {
@@ -185,13 +198,13 @@ body {
 .footer-list a:hover,
 .footer-list a:focus {
   text-decoration: underline;
-  text-decoration-color: #2196f3;
+  color: var(--high-lighted);
 }
 
 .footer-text:hover,
 .footer-text:focus {
   text-decoration: underline;
-  text-decoration-color: #2196f3;
+  color: var(--high-lighted);
 }
 
 /* .................................... */
@@ -205,7 +218,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--black);
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -219,7 +232,7 @@ body {
 .buttons-section-list button:hover,
 .buttons-section-list button:focus {
   cursor: pointer;
-  background: #2196f3;
+  background: var(--high-lighted);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -238,7 +251,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--black);
 }
 
 .project-type {
